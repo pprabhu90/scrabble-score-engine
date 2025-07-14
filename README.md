@@ -4,15 +4,20 @@ This project includes two Python scripts that compute the highest-scoring Scrabb
 
 ## Features
 - Calculates word scores using official Scrabble tile values
-- Validates words against a reference dictionary
+- Supports wildcard characters (`*` and `?`)
+- Validates words against a reference dictionary (`sowpods.txt`)
 - Optimized for readability and teaching purposes
 
 ## Files
-- `scrabble.py` – input, processing, and highest scoring logic
-- `wordscore.py` – core function to calculate the score of a word
+- `scrabble.py` – input handling, word generation, and scoring logic
+- `wordscore.py` – function to calculate the score of a word
+- `sowpods.txt` – dictionary of valid Scrabble words (add this file manually)
 
-## Tools Used
-- Python (built-in libraries only)
+## How to Run
+From the command line:
+```bash
+python scrabble.py PAINTER
+```
 
 ## Author
 Praj Prabhu
