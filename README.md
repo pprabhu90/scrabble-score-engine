@@ -1,6 +1,6 @@
 # Scrabble Word Scoring Engine
 
-This project includes two Python scripts that compute the highest-scoring Scrabble word from a given set of letters using standard letter scores.
+This project includes two Python scripts that compute the highest-scoring Scrabble words from a given set of letters using standard letter scores.
 
 ## Features
 - Calculates word scores using official Scrabble tile values
@@ -11,7 +11,7 @@ This project includes two Python scripts that compute the highest-scoring Scrabb
 ## Files
 - `scrabble.py` – input handling, word generation, and scoring logic
 - `wordscore.py` – function to calculate the score of a word
-- `sowpods.txt` – dictionary of valid Scrabble words (add this file manually)
+- `sowpods.txt` – dictionary of valid Scrabble words (included)
 
 ## How to Run
 From the command line:
